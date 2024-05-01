@@ -1,6 +1,29 @@
 
 # Cifras y Letras
 
+
+<p align="center">
+  <img src="https://repository-images.githubusercontent.com/794474602/65697997-f8d3-402e-970e-02cf04817a13" alt="Data Science Book Hub">
+</p>
+
+<p align="center">
+  <a href="https://github.com/imarranz/cifras-y-letras/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?longCache=true" alt="Pull Requests">
+  </a>
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-red.svg?longCache=true" alt="MIT License">
+  </a>
+   <a href="https://github.com/imarranz/cifras-y-letras"><img src="https://img.shields.io/github/stars/imarranz/cifras-y-letras" alt="Stars"/></a>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://twitter.com/imarranz" target="_blank">
+    <img src="https://img.shields.io/twitter/follow/imarranz.svg?logo=twitter">
+  </a>
+</p>
+
+
 **Desafío de la Palabra Más Larga**
 
 De lunes a jueves, a las 9:30, todos en mi familia tenemos una cita con el concurso **Cifras y Letras**. Podéis saber más sobre este programa en la web de [RTVE](https://www.rtve.es/play/videos/cifras-y-letras/?media=tve) y en [wikipedia](https://es.wikipedia.org/wiki/Cifras_y_letras).
