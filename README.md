@@ -26,13 +26,15 @@
 
 **Desafío de la Palabra Más Larga**
 
-De lunes a jueves, a las 9:30, todos en mi familia tenemos una cita con el concurso **Cifras y Letras**. Podéis saber más sobre este programa en la web de [RTVE](https://www.rtve.es/play/videos/cifras-y-letras/?media=tve) y en [wikipedia](https://es.wikipedia.org/wiki/Cifras_y_letras).
+De lunes a jueves, a las 9:30, todos en mi familia tenemos una cita con el concurso **Cifras y Letras**. Podéis saber más sobre este programa en la web de [RTVE](https://www.rtve.es/play/videos/cifras-y-letras/?media=tve) y en [wikipedia](https://es.wikipedia.org/wiki/Cifras_y_letras). El programa tiene varias pruebas de cálculo y vocabulario. Una de ellas, la prueba de la palabra más larga, es una de la que más nos gusta. En esta prueba a los concursantes se les dará 10 letras al azar, de las cuales uno de los concursantes podrá decidir cuántas serán vocales y con estas 10 letraslos concursantes deben construir la palabra más larga.
 
-Este repositorio contiene un programa familiar que he diseñado y desarrollado junto a mis hijos para encontrar la palabra más larga posible a partir de un conjunto de letras proporcionadas en el concurso de Cifras y Letras. A mis hijos les encanta ver cómo el programa compite contra los concursantes, brindándonos una "ventaja" divertida y educativa. Utilizamos un diccionario de la lengua española como base para el análisis y la búsqueda de palabras, lo que hace de este proyecto una gran herramienta tanto para el aprendizaje como para el entretenimiento familiar.
+Este repositorio contiene una librería en Python que he diseñado y desarrollado junto a mis hijos para encontrar la palabra más larga posible a partir de un conjunto de letras proporcionadas en el concurso de **Cifras y Letras**. A mis hijos les encanta ver cómo nuestro programa compite contra los concursantes, brindándonos una "ventaja" divertida y educativa. Utilizamos un diccionario de la lengua española como base para el análisis y la búsqueda de palabras, lo que hace de este proyecto una gran herramienta tanto para el aprendizaje como para el entretenimiento familiar.
 
-## Objetivo
+## Objetivos
 
-El objetivo de este proyecto es desarrollar una herramienta que pueda analizar rápidamente un conjunto aleatorio de letras y determinar la palabra más larga que se puede formar con ellas, según el [Diccionario de la Lengua Española](https://www.rae.es/).
+El principal objetivo de este proyecto es desarrollar una herramienta que pueda analizar rápidamente un conjunto aleatorio de letras y determinar la palabra más larga que se puede formar con ellas, según el [Diccionario de la Lengua Española](https://www.rae.es/).
+
+Otro objetivo que hemos alcanzado con este programa es resolver la siguiente pregunta ¿Cuál es la estrategia óptima a la hora de decidir el número de vocales? ¿4, 5 o 6 vocales?
 
 ## Cómo funciona
 
@@ -45,6 +47,12 @@ Para usar este programa, simplemente puedes clonar el repositorio y seguir las i
 ```bash
 git clone https://github.com/imarranz/cifras-y-letras.git
 cd cifras-y-letras
+```
+
+En nuestro código en Python, podemos cargar la librería _cyl_ y poder trabajar con las diferentes funciones desarrolladas.
+
+```bash
+from cyl import cuantas_vocales, cuantas_letras, generar_juego, es_solucion, mejor_solucion, reemplazar_acentos
 ```
 
 ## Configuración
@@ -65,7 +73,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo `LICENS
 
 ## Source
 
-De este [proyecto](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt) he aprendido a descargar el Diccionario de la RAE en texto.
+De este [proyecto](https://github.com/JorgeDuenasLerin/diccionario-espanol-txt) he aprendido a descargar el Diccionario de la RAE en texto, algo fundamental en este proyecto.
 
 
 
