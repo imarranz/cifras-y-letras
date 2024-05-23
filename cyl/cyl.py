@@ -22,7 +22,7 @@ def cuantas_vocales(palabra):
     5
     """
     palabra = list(palabra)
-    vocales = ['a', 'á', 'e', 'é', 'i', 'í', 'o', 'ó', 'u', 'ú']
+    vocales = ['a', 'á', 'e', 'é', 'i', 'í', 'o', 'ó', 'u', 'ú', 'ü']
     nvocales = 0
     
     for c in palabra:
@@ -111,7 +111,7 @@ def reemplazar_acentos(lista):
     """
     
     # Diccionario de reemplazo con vocales acentuadas y su correspondiente sin acento
-    acentos = str.maketrans('áéíóú', 'aeiou')
+    acentos = str.maketrans('áéíóúü', 'aeiouu')
     
     # Reemplazar los caracteres en cada elemento de la lista
     lista_sin_acentos = [char.translate(acentos) for char in lista]
